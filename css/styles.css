@@ -1,7 +1,77 @@
-body{
-    width: 100%;
+:root{
+    --primary-color:#1A2B48;
+    --white:#fff;
 }
 
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Header*/
 header{
-    
+    height: 51px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+
+header a{
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    padding: 0 18px 0 0;
+    text-decoration: none;
+    height: 18px;
+}
+
+.nav-left a{
+    width: 10px;
+}
+
+.nav-left a:nth-child(4){
+    padding: 0 0 0 18px;
+    border-left: 0.5px solid rgba(255,255,255,.2);
+}
+
+.nav-left a img{
+    width: 17px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a{
+    padding: 0 18px;
+    border-right: 0.5px solid rgba(255,255,255,.2);
+}
+
+.nav-right select{
+    padding: 0 0 0 18px;
+    font-size: 12px;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border: 0;
+}
+
+/*Main*/
+
+/*Section 1*/
+
+.search-container{
+    background-image: url(../assets/images/img_hero_6.jpg);
+    width: 100%;
+    height: 540px;
+    background-size: cover;
 }
