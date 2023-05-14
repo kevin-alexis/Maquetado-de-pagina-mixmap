@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <title>Home Page - MixMap</title>
     
 </head>
@@ -45,7 +46,7 @@
                         <li>
                             <a href="">
                                 HOTEL
-                                <i class="fa fa-angle-down flecha" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down arrow" aria-hidden="true"></i>
                             </a>
                             <ul class="options">
                                 <li><a href="">Search Hotel Half Map</a>
@@ -58,7 +59,7 @@
                         <li>
                             <a href="">
                                 TOUR
-                                <i class="fa fa-angle-down flecha" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down arrow" aria-hidden="true"></i>
                             </a>
                             <ul class="options">
                                 <li><a href="">Top Search Layout</a></li>
@@ -69,7 +70,7 @@
                         <li>
                             <a href="">
                                 ACTIVITY
-                                <i class="fa fa-angle-down flecha" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down arrow" aria-hidden="true"></i>
                             </a>
                             <ul class="options">
                                 <li><a href="">Sidebar Search Layout</a></li>
@@ -79,7 +80,7 @@
                         <li>
                             <a href="">
                                 RENTAL
-                                <i class="fa fa-angle-down flecha" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down arrow" aria-hidden="true"></i>
                             </a>
                             <ul class="options">
                                 <li><a href="">Rental Fullmap Search</a></li>
@@ -90,7 +91,7 @@
                         <li>
                             <a href="">
                                 CAR
-                                <i class="fa fa-angle-down flecha" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down arrow" aria-hidden="true"></i>
                             </a>
                             
                             <ul class="options">
@@ -102,7 +103,7 @@
                         <li>
                             <a href="">
                                 PAGES
-                                <i class="fa fa-angle-down flecha" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down arrow" aria-hidden="true"></i>
                             </a>
                             <ul class="options">
                                 <li><a href="">Author Profile</a></li>
@@ -130,98 +131,158 @@
     
     <main>
         <section class="search-container">
-            <div class="search-question">
-                <h1>Hi There!</h1>
+            <div>
+                    <h1>Hi There!</h1>
                 <p>Where would you like to go?</p>
-            </div>
 
-            <div class="search-filter">
-                <ul>
-                    <li><a href="">Hotel</a></li>
-                    <li><a href="">Tour</a></li>
-                    <li><a href="">Activity</a></li>
-                    <li><a href="">Rental</a></li>
-                    <li><a href="">Car</a></li>
-                    <li><a href="">Transfercar</a></li>
-                </ul>
+                <div class="search-filter">
+                    <ul>
+                        <li class="filter active"><a href="">Hotel</a></li>
+                        <li class="filter"><a href="">Tour</a></li>
+                        <li class="filter"><a href="">Activity</a></li>
+                        <li class="filter"><a href="">Rental</a></li>
+                        <li class="filter"><a href="">Car</a></li>
+                        <li class="filter"><a href="">Transfercar</a></li>
+                    </ul>
+                    <div class="form-filter-container">
+                        <form action="" class="form-filter">
+                            <div class="item-filter filter-right">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <div>
+                                    <label for="" class="text-grey">Destination</label>
+                                    <input type="text" placeholder="Where are you going?">
+                                </div>
+                            </div>
+                            <div class="item-filter ">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                <div class="dates-container">
+                                    <p class="label-date text-grey">Check In - Out</p>
+                                    <p class="date text-blue">dd/mm/yyyy - dd/mm/yyyy</p>
+                                </div>
+                            </div>
+                            <div class="item-filter filter-right">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                                <div>
+                                    <label for="" class="text-grey">Guest</label>
+                                    <p class="text-blue">1 Adult - 0 Children</p>
+                                </div>
+                                <i class="fa fa-angle-down arrow-grey" aria-hidden="true"></i>
+                            </div>
+                            <div class="item-filter">
+                                <div>
+                                    <label for="" class="text-grey">Advance</label>
+                                    <p class="text-blue">More
+                                        <i class="fa fa-caret-down"></i>
+                                    </p>
+                                </div>
+                                <button>Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                
+        <section class="special-offers">
+            <div class="offer1">
+                <div>
+                    <a href="" class="holiday-buttom">HOLIDAY SALE</a>
+                </div>
+                <div>
+                    <h2>Special Offers</h2>
+                <p>Find Your Perfect Hotels Get the best prices on 20,000+ properties the best prices on.</p>
+                </div>
+                <div>
+                    <a href="" class="transparent-buttom">See Deals</a>
+                </div>
             </div>
-            <div>
-
+            <div class="offer2">
+                <div>
+                    <a href="" class="holiday-buttom">HOLIDAY SALE</a>
+                </div>
+                <h2>Newsletters</h2>
+                <p>Join for free and get our tailored newsletters full of hot travel deals.</p>
+                <div>
+                    <a href="" class="transparent-buttom">SIGN UP</a>
+                </div>
             </div>
-            <div>
-                
+            <div class="offer3">
+                <div>
+                    <a href="" class="holiday-buttom">HOLIDAY SALE</a>
+                </div>
+                <h2>Special Offers</h2>
+                <p>Find Your Perfect Hotels Get the best prices on 20,000+ properties the best prices on.</p>
+                <div>
+                    <a href="" class="transparent-buttom">See Deals</a>
+                </div>
             </div>
         </section>
 
-        <section>
+        <section class="top-destinations">
             <div>
                 <h2>Top Destinations</h2>
             </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3></h3>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/images/cali_5-1024x1024.jpg" alt="">
+                    <h3></h3>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/cheapest-car-insurance-in-new-jersey-nj-story.jpg" alt="">
+                    <h3></h3>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/los_angeles_3-1024x1024.jpg" alt="">
+                    <h3></h3>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/photo-1516975698824-571e2c952dbd.jpg" alt="">
+                    <h3></h3>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/photo-1429554429301-1c7d5ae2d42e.jpg" alt="">
+                    <h3></h3>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/photo-1470219556762-1771e7f9427d.jpg" alt="">
+                    <h3></h3>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2></h2>
+        <section class="trending-tour">
+            <div class="trending-tour-options">
+                <h2>Trending</h2>
                 <select name="" id="">
                     <option value="">Tour</option>
                     <option value="">Hotel</option>
@@ -229,42 +290,44 @@
                     <option value="">Rental</option>
                 </select>
             </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-                
-                <div>
+            <div class="tour-card-container">
+                <div class="tour-card">
                     <div>
-                        <h3><a href=""></a></h3>
-                        <p></p>
+                        <img src="./assets/images/Beautiful-US-Cities-to-Travel-to-450x300.jpg" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
                     </div>
+                    
                     <div>
                         <div>
-                            <ul>
-                                <li>
-                                    <i></i>
-                                </li>
-                                <li>
-                                    <i></i>
-                                </li>
-                                <li>
-                                    <i></i>
-                                </li>
-                                <li>
-                                    <i></i>
-                                </li>
-                                <li>
-                                    <i></i>
-                                </li>
-                            </ul>
+                            <h3><a href=""></a></h3>
                             <p></p>
                         </div>
                         <div>
-                            <p></p>
-                            <p></p>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <i></i>
+                                    </li>
+                                    <li>
+                                        <i></i>
+                                    </li>
+                                    <li>
+                                        <i></i>
+                                    </li>
+                                    <li>
+                                        <i></i>
+                                    </li>
+                                    <li>
+                                        <i></i>
+                                    </li>
+                                </ul>
+                                <p></p>
+                            </div>
+                            <div>
+                                <p></p>
+                                <p></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -273,35 +336,40 @@
     </main>
 
     <footer>
-        <div>
-            <img src="" alt="">
-            <div>
-                <h2></h2>
-                <p></p>
+        <div class="top-footer">
+            <div class="top-footer-left">
+                <img src="./assets/icons/ico_email_subscribe.png" alt="">
+                <div>
+                    <h2>Get Updates & More</h2>
+                    <p>Thoughtful thoughts to your inbox</p>
+                </div>
             </div>
-            <input type="text" placeholder="Your Email">
-            <button>SUBCRIBE</button>
+            <div class="top-footer-right">
+                <input type="text" placeholder="Your Email">
+                <input type="submit" name="SUBCRIBE" value="SUBCRIBE"></input>
+            </div>
+            
         </div>
 
-        <div>
-            <div>
+        <div class="middle-footer">
+            <div class="need-help">
                 <h3>NEED HELP?</h3>
-                <div>
-                    <p>Call Us</p>
-                    <p>+ 00 222 44 5678</p>
+                <div class="help-container">
+                    <p class="subtitle">Call Us</p>
+                    <p class="information">+ 00 222 44 5678</p>
                 </div>
-                <div>
-                    <p>Email for Us</p>
-                    <p>[email protected]</p>
+                <div class="help-container">
+                    <p class="subtitle">Email for Us</p>
+                    <p class="information">[email protected]</p>
                 </div>
-                <div>
-                    <p>Follow Us</p>
-                    <i></i>
-                    <i></i>
-                    <i></i>
+                <div class="help-container">
+                    <p class="subtitle">Follow Us</p>
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
                 </div>
             </div>
-            <div>
+            <div class="company">
                 <h3>COMPANY</h3>
                 <p>About Us</p>
                 <p>Community Blog</p>
@@ -309,7 +377,7 @@
                 <p>Work with Us</p>
                 <p>Meet the Team</p>
             </div>
-            <div>
+            <div class="company">
                 <h3>COMPANY</h3>
                 <p>Account</p>
                 <p>Legal</p>
@@ -317,7 +385,7 @@
                 <p>Affiliate Program</p>
                 <p>Privacy Policy</p>
             </div>
-            <div>
+            <div class="settings">
                 <h3>SETTINGS</h3>
                 <p>Currencies</p>
                 <select name="" id="">
@@ -330,10 +398,9 @@
             </div>
         </div>
 
-        <div>
+        <div class="bottom-footer">
             <p>Copyright © 2022 by <a href="">Traveler Theme</a></p>
-            <img src="" alt="">
-            
+            <img src="./assets/images/cards.png  " alt="">
         </div>
 
     </footer>
