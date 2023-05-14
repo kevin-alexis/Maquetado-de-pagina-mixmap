@@ -20,15 +20,19 @@ p{
 
 /*Header*/
 header{
-    height: 51px;
-    background-color: var(--primary-color);
+    position: absolute;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 15px 50px;
     box-sizing: border-box;
     font-size: 12px;
 }
 
+header div{
+    display: flex;
+    justify-content: space-between;
+}
 
 header a{
     display: flex;
@@ -39,35 +43,42 @@ header a{
     height: 18px;
 }
 
-.nav-left a{
+.top-header{
+    box-sizing: border-box;
+    height: 51px;
+    padding: 15px 50px;
+    background-color: var(--primary-color);
+}
+
+.top-header-left a{
     width: 10px;
 }
 
-.nav-left a:nth-child(4){
+.top-header-left a:nth-child(4){
     padding: 0 0 0 18px;
     border-left: 0.5px solid rgba(255,255,255,.2);
 }
 
-.nav-left a img{
+.top-header-left a img{
     width: 17px;
 }
 
-.nav-left{
+.top-header-left{
     display: flex;
     align-items: center;
 }
 
-.nav-right{
+.top-header-right{
     display: flex;
     align-items: center;
 }
 
-.nav-right a{
+.top-header-right a{
     padding: 0 18px;
     border-right: 0.5px solid rgba(255,255,255,.2);
 }
 
-.nav-right select{
+.top-header-right select{
     outline: none;
     padding: 0 0 0 18px;
     font-size: 12px;
@@ -82,16 +93,22 @@ header a{
 
 .search-container{
     background-image: url(../assets/images/img_hero_6.jpg);
+    background-position: center center;
     width: 100%;
-    height: 540px;
+    height: 283px;
+    padding: 200px 0 90px;
     background-size: cover;
 }
 
-.search-header{
+.down-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px 0 50px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .search-icon{
@@ -99,22 +116,30 @@ header a{
 }
 
 .search-question{
+    padding: 200px 0 90px;
     margin: 0 auto;
 }
 
-.search-header div{
-    display: flex;
+.down-header div{
     align-items: center;
 }
 
-.search-header div a{
-    color: var(--white);
-    padding: 0 15px;
+.down-header div a{
+    position: relative;
     text-decoration: none;
+}
+
+.search-left a img{
+    width: 142.639px;
 }
 
 .search-left a:nth-child(2){
     color: var(--radiant-blue);
+    padding: 35px 25px;
+}
+
+.search-right{
+    align-items: center;
 }
 
 .search-right form input{
@@ -144,14 +169,25 @@ nav ul{
 }
 
 nav ul li{
-    width: 70px;
     align-items: center;
-    display: flex;
+    display: inline-block;
     color: var(--white);
+    box-sizing: border-box;
+}
+
+nav ul li a{
+    padding: 35px 25px;
+}
+
+.flecha{
+    position: absolute;
+    right: 5px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .options{
-    visibility: hidden;
+    display: none;
 }
 
 .search-right a{
@@ -160,9 +196,6 @@ nav ul li{
 
 .search-right a:nth-child(2){
     background-color: var(--orange);
-    /* width: 210px;
-    height: 40px; */
     border-radius: 3px;
     padding: 10px 25px;
-    /* box-sizing: border-box; */
 }
