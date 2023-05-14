@@ -7,6 +7,7 @@
     --white-grey: #d7dce3;
     --orange:#FA5636;
     --radiant-blue: rgba(6,147,227,1);
+    --blue: #5191fa;
 }
 
 body{
@@ -17,10 +18,10 @@ body{
 h1{
     font-size: 3.3rem;
 }
-
+/* 
 p{
     font-size: 1rem;
-}
+} */
 
 /*Header*/
 header{
@@ -95,7 +96,7 @@ header a{
 
 /*Section 1*/
 
-.search-container{
+.search-section{
     background-image: url(../assets/images/img_hero_6.jpg);
     background-position: center center;
     width: 100%;
@@ -202,33 +203,44 @@ nav ul li a{
     background-color: var(--orange);
     border-radius: 3px;
     padding: 10px 25px;
+    font-weight: 450;
 }
 
-.search-container{
+.search-section{
     color: var(--white);
 }
 
-.search-container > div{
+.search-container h1{
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.search-container > p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+.search-section > div{
     padding: 10px;
 }
 
-.search-container div{
+.search-section div{
     max-width: 1320px;
     margin: 0 auto;
     align-items: center;
-}
-
-.search-container h1{
-    font-family: 'Libre Baskerville', serif;
 }
 
 .search-filter ul{
     display: flex;
 }
 
-
 .filter{
-    padding: 7px 30px;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 35px;
+    padding:10px 30px;
     background-color: var(--primary-color);
     border-radius: 8px 8px 0 0;
 }
@@ -238,7 +250,7 @@ nav ul li a{
 }
 
 .active{
-    background-color: var(--radiant-blue);
+    background-color: var(--blue);
 }
 
 .form-filter-container{
@@ -261,13 +273,26 @@ nav ul li a{
 
 .item-filter{
     display: flex;
-    padding: 10px 0;
+    padding: 15px;
+    width: 100%;
 }
 
 .item-filter > div{
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
+}
+
+.item-filter > div p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.item-filter label{
+    padding-bottom: 10px;
 }
 
 .item-filter input{
@@ -278,7 +303,12 @@ nav ul li a{
 
 .item-filter input::placeholder,
 .text-blue{
-    color: var(--radiant-blue);
+    color: var(--blue);
+    font-size: 14px;
+}
+
+.text-blue span{
+    color: var(--black);
     font-size: 14px;
 }
 
@@ -290,7 +320,7 @@ nav ul li a{
 
 .item-filter button{
     cursor: pointer;
-    background-color: var(--radiant-blue);
+    background-color: var(--blue);
     color: var(--white);
     border: 0;
     border-radius: 3px;
@@ -378,7 +408,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     top: 160px;
     left: 30px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .offer1 p,
@@ -486,12 +516,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .trending-tour h2{
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .trending-tour-options{
     display: flex;
-    
+}
+
+.trending-tour-options select{
+    border: 0;
+    color: var(--radiant-blue);
+    font-size: 28px;
 }
 
 .tour-card-container{
@@ -512,6 +547,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .top-footer h2{
     font-size: 24px;
+    font-weight: 500;
 }
 
 .top-footer p{
@@ -577,7 +613,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .middle-footer h3{
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .need-help h3,
@@ -602,7 +638,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .information{
     font-size: 22px;
     color: var(--black);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .fa-facebook-official,
