@@ -578,6 +578,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border: 1px solid var(--white-grey);
     box-sizing: border-box;
     border-radius: 8px;
+    position: relative;
 }
 
 .tour-card img:not(.profile-photo){
@@ -586,6 +587,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .top-card{
     position: relative;
+    overflow: hidden;
+}
+
+.top-card img{
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.top-card img:hover{
+    transform: scale(1.1);
 }
 
 .top-card i{
@@ -621,14 +632,26 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: 0 3px 3px 0;
 }
 
-.profile-photo{
-    height: 33px;
-    width: 33px;
+.link-profile-photo{
     position: absolute;
-    bottom: -10px;
-    right: 10px;
+    right: 10%;
+    top: 45%;
     border: 1px solid var(--white);
     border-radius: 50%;
+    height: 33px;
+    width: 33px;
+    overflow: hidden;
+}
+
+.profile-photo{
+        height: 33px;
+        width: 33px;
+        position: absolute;
+        transition: 0.3s;
+}
+
+.profile-photo:hover{
+    transform: scale(1.1);
 }
 
 .bottom-card{
@@ -799,7 +822,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: 0 5px 5px 0;
     padding: 1px 25px;
     cursor: pointer;
-    
 }
 
 .top-footer-right input:nth-child(1):focus{
