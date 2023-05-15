@@ -4,6 +4,15 @@ Este proyecto consiste en la creación de un clon de la página web MixMap utili
 ## Página Base
 La página base que se utilizó como referencia para este clon es https://mixmap-elementor.travelerwp.com/. Se recomienda visitar la página original para tener una idea clara de la estructura y el diseño general.
 
+![MixMap1](https://github.com/kevin-alexis/Maquetado-de-pagina-mixmap/assets/77393819/5f82c7c4-27e9-47bf-8e6b-f3f5cb0dbdb1)
+
+![MixMap2](https://github.com/kevin-alexis/Maquetado-de-pagina-mixmap/assets/77393819/faffdd82-642f-4542-9bfb-e04455508e9e)
+
+![MixMap3](https://github.com/kevin-alexis/Maquetado-de-pagina-mixmap/assets/77393819/45e57ecd-040f-40a0-8b0b-1518f793323a)
+
+![MixMap4](https://github.com/kevin-alexis/Maquetado-de-pagina-mixmap/assets/77393819/0a33d475-aa52-44d5-8a48-a36fd805f524)
+
+
 ## Contenido
 El clon incluye las siguientes secciones de la página original:
 
