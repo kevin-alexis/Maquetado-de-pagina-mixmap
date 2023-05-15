@@ -56,4 +56,4 @@ Este clon de la página MixMap es una representación estática de la página or
 Si tienes sugerencias para mejorar este proyecto, ¡no dudes en realizar un pull request! Estaré encantado de revisar y considerar tus contribuciones.
 
 ## Créditos
-Este clon de la página MixMap fue creado por Kevin Alexs Bello Maldonado. Puedes encontrar más información sobre mis proyectos y habilidades en mi [portafolio en línea](https://kevin-alexis.github.io/).
+Este clon de la página MixMap fue creado por Kevin Bello. Puedes encontrar más información sobre mis proyectos y habilidades en mi [portafolio en línea](https://kevin-alexis.github.io/).
