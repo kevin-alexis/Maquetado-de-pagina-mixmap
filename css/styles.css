@@ -761,6 +761,31 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: var(--yellow);
 }
 
+/*Section: return up*/
+
+.return-up-button{
+    cursor: pointer;
+    background-color: var(--blue);
+    border: 0;
+    border-radius: 7px;
+    display: block;
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.fa-angle-up{
+    font-size: 24px;
+    color: var(--white);
+}
+
 /*footer*/
 
 .top-footer{
