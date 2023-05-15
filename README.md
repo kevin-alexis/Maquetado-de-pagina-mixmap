@@ -1,7 +1,7 @@
 # MixMap Clon - Página de Maquetación con HTML y CSS
 Este proyecto consiste en la creación de un clon de la página web MixMap utilizando HTML y CSS. El objetivo principal es mostrar mis habilidades de maquetación y diseño web en mi portafolio.
 
-<h2>Página Base</h2>
+## Página Base
 La página base que se utilizó como referencia para este clon es https://mixmap-elementor.travelerwp.com/. Se recomienda visitar la página original para tener una idea clara de la estructura y el diseño general.
 
 Contenido
