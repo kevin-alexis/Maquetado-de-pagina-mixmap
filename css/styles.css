@@ -672,6 +672,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 13px;
 }
 
+
 .information-card-right p:nth-child(2){
     font-size: 14px;
     color: var(--grey);
@@ -684,9 +685,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .discount{
+    visibility: hidden;
     color: var(--red);
     font-size: 14px;
     text-decoration: line-through;
+}
+
+.active-discount{
+    visibility: visible;
 }
 
 .name-card{
