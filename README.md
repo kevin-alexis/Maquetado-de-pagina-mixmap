@@ -23,6 +23,15 @@ El clon incluye las siguientes secciones de la página original:
 - Sección "Reserva Ahora" con un formulario de reserva y opciones de selección.
 - Pie de página con enlaces adicionales y detalles de contacto.
 
+![MixMapClon1](https://github.com/kevin-alexis/Maquetado-de-pagina-mixmap/assets/77393819/32fb6144-1cbe-4ab9-8a03-0aeb62e7fa8d)
+
+![MixMapClon2](https://github.com/kevin-alexis/Maquetado-de-pagina-mixmap/assets/77393819/425287c7-c4ab-4319-bfad-767794ab237d)
+
+![MixMapClon3](https://github.com/kevin-alexis/Maquetado-de-pagina-mixmap/assets/77393819/a6876cfd-83d3-4d1e-bbe5-af38e1ea5409)
+
+![MixMapClon4](https://github.com/kevin-alexis/Maquetado-de-pagina-mixmap/assets/77393819/2435a7e6-236e-4689-ad48-305616d51262)
+
+
 ## Tecnologías Utilizadas
 El clon de la página se ha desarrollado utilizando las siguientes tecnologías:
 
