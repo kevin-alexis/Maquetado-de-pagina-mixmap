@@ -18,7 +18,6 @@ El clon incluye las siguientes secciones de la página original:
 
 - Encabezado con el logotipo y menú de navegación.
 - Sección "Destinos Populares" con una selección de destinos destacados.
-- Sección "Explora el Mapa" que muestra un mapa interactivo con marcadores de ubicación.
 - Sección "Experiencias" con una galería de imágenes y descripciones de diferentes experiencias.
 - Sección "Reserva Ahora" con un formulario de reserva y opciones de selección.
 - Pie de página con enlaces adicionales y detalles de contacto.
