@@ -9,6 +9,7 @@
     --milk-grey: #D0D7DD;
     --orange:#FA5636;
     --radiant-blue: rgba(6,147,227,1);
+    --light-blue: #19A1E5;
     --blue: #5191fa;
     --yellow:#ffdc00;
     --red: #CC0033;
@@ -595,6 +596,31 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: var(--white);
 }
 
+.discount-tag{
+    font-size: 15px;
+    position: absolute;
+    top: -20px;
+    right: -40px;
+    rotate: 45deg;
+    color: var(--white);
+    padding: 30px 30px 10px 30px;
+    display: inline-block;
+    background-color: #CC0033;
+}
+
+.featured-tag{
+    position: absolute;
+    left: 0;
+    top: 24px;
+    padding: 7px 10px;
+    display: inline-block;
+    background-color: var(--light-blue);
+    font-weight: 600px;
+    font-size: 13px;
+    color: var(--white);
+    border-radius: 0 3px 3px 0;
+}
+
 .profile-photo{
     height: 33px;
     width: 33px;
@@ -886,4 +912,27 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .bottom-footer img{
     height: 40px;
+}
+
+
+
+/*media query*/
+
+@media (max-width:1170px){
+
+    .search-right a:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width:1055px){
+
+    .search-left a:nth-child(2),
+    nav{
+        display: none;
+    }
+
+    .down-header{
+        height: 88px;
+    }
 }
