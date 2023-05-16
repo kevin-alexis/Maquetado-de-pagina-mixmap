@@ -789,21 +789,24 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /*footer*/
 
 .top-footer{
-    max-width: 1290px;
+    background-color: #f5f5f5;
+    /* max-width: 1290px; */
     margin: 0 auto;
-    padding: 65px 10px; 
+    padding: 75px 10px; 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 
 .top-footer h2{
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 5px;
 }
 
 .top-footer p{
-    font-size: 20px;
+    font-size: 16px;
     color: var(--grey);
 }
 
@@ -813,12 +816,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .top-footer-left img{
-    width: 54px;
-    height: 54px;
+    width: 51.51px;
+    height: 51.51px;
 }
 
 .top-footer-left div{
-    padding: 0 25px;
+    padding: 0 25px 0 30px;
 }
 
 .top-footer-right{
@@ -861,6 +864,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 50px;
 }
 
 .middle-footer h3{
@@ -940,12 +944,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .bottom-footer{
-    max-width: 1290px;
     margin: 0 auto;
+    /* padding: 100px 240px 30px 240px; */
+    
+    border-top: 1px solid var(--white-grey);
+}
+
+.bottom-footer div{
+    margin: 0 auto;
+    max-width: 1290px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 240px 30px 240px;
 }
 
 .bottom-footer p{
